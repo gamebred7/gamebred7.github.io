@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head id="55">
+    <title>Игра престолов</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Игра престолов">
+    <meta name="keywords" content="сериалы, игра престолов">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Ваге">
+
+    <script src="11.js"></script>
+    <link href="888.png" rel="shortcut icon" type="image/png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Игра престолов</h1>
+            <p class="display-6">Без преувеличения самый популярный телесериал десятых. Снят американским телеканалом
+                HBO. В основу
+                «Игры престолов» положена серия фэнтэзийных романов «Песнь Льда и Огня» Джорджа Мартина. Первый
+                сезон точно переносил действие первой книги на экран, затем сериал постепенно начал расходиться с
+                сюжетом романов.
+            </p>
+            <p class="display-6">Действие «Игры престолов» происходит в вымышленном мире, схожим с Европой
+                средневековья. В сериале
+                параллельно развиваются три истории. Первая рассказывает о борьбе влиятельных домов за Железный Трон
+                Семи Королевств. Вторая посвящена принцессе, которая была изгнана из Королевств и планирует вернуть
+                себе власть. Третья история — о братстве, которое охраняет Королевство от опасностей, идущих с
+                севера.</p>
+        </div>
+        <div class="container mt-3">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="999999.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="888888.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="666666.jpg">
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <main>
+        <article>
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+                <a class="navbar-brand" href="#">
+                    <img src="333.png" style="width:150px">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="pers.html">Актерский состав</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="test.html">Тест</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto" id="55">
+                        <p id="text0" style="display: none"></p>
+                        <a href="#" id="show" onclick="return false" class="btn btn-light" data-toggle="modal"
+                            data-target="#myModal">Вход</a>
+                        <a href="#" style="display: none" id="hide0" onclick="return false"
+                            class="btn btn-light">Выход</a>
+
+                    </ul>
+                </div>
+            </nav>
+
+
+            <div class="container">
+                <div class="container">
+                    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Вход в аккаунт</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                   
+                                    <form action="#" class="needs-validation" novalidate>
+                                        <div class="form-group">
+                                            <label for="uname">Имя пользователя:</label>
+                                            <input type="text" class="form-control" id="uname"
+                                                placeholder="Введите имя поьзователя:" name="uname" required>
+                                            <div class="valid-feedback">Выполнено</div>
+                                            <div class="invalid-feedback">Заполните поле*</div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="pwd">Пароль:</label>
+                                            <input type="password" class="form-control" id="pwd"
+                                                placeholder="Введите пароль:" name="pswd" required>
+                                            <div class="valid-feedback">Выполнено</div>
+                                            <div class="invalid-feedback">Заполните поле*</div>
+                                        </div>
+                                        <div class="form-group form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" name="remember"
+                                                    required>Запомнить меня
+                                                <div class="valid-feedback">Выполнено</div>
+                                                <div class="invalid-feedback">Заполните поле*</div>
+                                            </label>
+                                        </div>
+                                        <a href="#55"><button type="button" class="btn btn-primary" data-dismiss="modal" id="show0">Войти</button></a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <style>
+                .carousel-inner img {
+                    width: 100%;
+                    height: 100%;
+                }
+            </style>
+
+            <br><br>
+
+            <script>
+
+                var hj = 0;
+
+                // Disable form submissions if there are invalid fields
+                localStorage.setItem('username', 'vage');
+                localStorage.setItem('password', 'igityan');
+                (function () {
+                    'use strict';
+                    window.addEventListener('load', function () {
+                        // Get the forms we want to add validation styles to
+                        var forms = document.getElementsByClassName('needs-validation');
+
+                        // Loop over them and prevent submission
+                        var validation = Array.prototype.filter.call(forms, function (form) {
+                            form.addEventListener('submit', function (event) {
+
+                                if (form.checkValidity() === false) {
+
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                    form.classList.add('was-validated');
+                                    if (localStorage.getItem('username') != document.getElementById('uname').value && document.getElementById('uname').value != NULL) { window.alert("Неверное имя пользователя или пароль. Повторите попытку!") }
+
+
+                                }
+
+                                if (localStorage.getItem('username') == document.getElementById('uname').value) {
+                                    hj = 1;
+                                    
+                                    getElementById("show").value="Выйти";
+                                    form.classList.add('was-validated');
+                                    
+                                }
+                                else { window.alert("Неверное имя пользователя или пароль. Повторите попытку!") }
+
+                            }, false);
+                        });
+                    }, false);
+
+                })();
+
+
+            </script>
+
+            <script>
+                $(document).ready(function () {
+
+                    function showtext() {
+                        $("#text0").show(10, function () {
+                            $("#hide0").show();
+                            $("#show").hide();
+                        });
+                    }
+
+
+                    function hidetext() {
+                        $("#text0").hide(10, function () {
+                            $("#hide0").hide();
+                            $("#show").show();
+                        });
+                    }
+
+                    $("#hide0").bind("click", hidetext);
+                    $("#show0").bind("click", showtext);
+                })
+            </script>
+
+            <div class="container-fluid" id="5">
+                <h1 class="display-4" align="center">О сериале</h1><br>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl">
+                            <img class="card-img-top" src="863788.jpg" style="width:100%"><br><br>
+                            <img class="card-img-top" src="1.jpg" style="width:100%"><br><br>
+                            <img class="card-img-top" src="544.jpg" style="width:100%"><br><br>
+                            <img class="card-img-top" src="222.jpg" style="width:100%"><br><br></div>
+                        <div class="col-xl bg-light">
+                            <p> «Игра́ престо́лов» — американский телесериал в жанре фэнтези, основанный на цикле
+                                романов «Песнь Льда и Огня» Джорджа Р. Р. Мартина. Снят под руководством Дэвида Бениоффа
+                                и Д. Б. Уайсса для кабельного телеканала HBO. Съёмки велись в нескольких странах,
+                                включая Великобританию (Северная Ирландия), Мальту, Хорватию, Исландию и Марокко.
+                                Премьера первого сезона в США состоялась 17 апреля 2011 года, последняя серия финального
+                                сезона демонстрировалась 19 мая 2019 года.
+
+                                Действие «Игры престолов» происходит в вымышленном мире, напоминающем средневековую
+                                Европу. В сериале одновременно действует множество персонажей и развивается несколько
+                                сюжетных линий. Основных сюжетных арок три: первая посвящена борьбе нескольких
+                                влиятельных домов за Железный Трон Семи Королевств либо за независимость от него; вторая
+                                — потомку свергнутой династии правителей, принцессе-изгнаннице, планирующей вернуть
+                                престол; третья — древнему братству, охраняющему государство от угроз с севера. </p>
+
+                            <p>
+                                Для сериала характерно отсутствие строго положительных персонажей, многие герои
+                                совершают неоднозначные поступки и могут погибнуть на экране неожиданно для зрителя. В
+                                сериале присутствуют фантастические существа — драконы и нежить. Специально для сериала
+                                были разработаны искусственные языки: дотракийский, высокий валирийский и несколько его
+                                диалектов.
+
+                                Телесериал получил высокие отзывы зрительской аудитории, став одним из самых
+                                крупнобюджетных проектов на современном американском телевидении и самым дорогостоящим в
+                                жанре фэнтези, несмотря на то, что многие критики посчитали избыточным количество
+                                ненормативной лексики, натуралистических сцен убийств, эротических сцен и намёков
+                                сексуального характера. Вокруг «Игры престолов» возникло обширное фан-сообщество. Сериал
+                                удостоен многих престижных наград, в том числе 38 прайм-таймовых премий «Эмми» в
+                                различных номинациях, трижды премии «Хьюго» за лучшую постановку, премии Пибоди. Питер
+                                Динклидж, исполнивший роль Тириона Ланнистера, трижды удостоен премии «Эмми» за лучшую
+                                мужскую роль второго плана и премии «Золотой глобус» за лучшую мужскую роль второго
+                                плана.
+                            </p><br><br>
+                            <p align="center"><a href="#5"><button type="button"
+                                        class="btn btn-success btn-lg">Наверх</button></a>
+                                <p>
+                        </div>
+                        <div class="col-xl">
+                            <img class="card-img-top" src="789.jpg" style="width:100%"><br><br>
+                            <img class="card-img-top" src="444444.jpg" style="width:100%"><br><br>
+                            <img class="card-img-top" src="777777.jpg" style="width:100%"><br><br>
+                            <img class="card-img-top" src="356.jpg" style="width:100%"><br><br></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+
+
+            <br><br>
+
+
+
+
+        </article>
+        <div class="jumbotron">
+            <h3 class="text-center">Copyright &copy; 2019.Игитян Ваге</h3>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+</body>
+
+</html>
