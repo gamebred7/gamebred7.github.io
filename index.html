@@ -173,6 +173,26 @@
             crossorigin="anonymous"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
         <script type="text/javascript"src="js/script.js"></script>
+    <script>
+     //Mаin
+   
+
+    $(document).ready(function () {
+        function showtext() {
+            $("#text0").show(10, function () {
+                $("#hide0").show();
+                $("#show").hide();
+            });
+        }
+        function hidetext() {
+            $("#text0").hide(10, function () {
+                $("#hide0").hide();
+                $("#show").show();
+            });
+        }
+        $("#hide0").bind("click", hidetext);
+        $("#show0").bind("click", showtext);
+    })</script>
 
 </body>
 
