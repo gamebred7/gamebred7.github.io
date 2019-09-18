@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Game Of Thrones</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Game Of Thrones">
+    <meta name="keywords" content="series, game of thrones">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Vage">
+    <link href="img/888.png" rel="shortcut icon" type="image/png" />
+</head>
+
+<main>
+    <article>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/333.png" style="width:150px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="pers.html">Аctors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Test</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="container-fluid">
+            <div class="container-fluid"><br><br><br>
+                <div id="go">
+                    <h1 class="display-4" align="center">Winter is here!</h1>
+                    <div align="center">
+                        <form id="go">
+                            <p>This online Game of Thrones Character test is delivered to you free of charge and will
+                                allow you to obtain your scores in relation to seven popular Game of Thrones characters.
+                                The present test has been made with the input of researchers who work professionally
+                                with psychometrics.
+                                The Game of Thrones test is an unscientific and “just for fun” personality
+                                test that has achieved a surprising amount of popularity through the success of the Game
+                                of Thrones franchise.
+                            </p>
+                            <button type="button" class="btn btn-primary btn-lg"
+                                onClick="show('test');show('go')">Start</button><br><br>
+                        </form>
+                        <br>
+                    </div>
+                    <p align="center"><img src="img/hh.jpg" style="width: 300px">
+                        <p><br><br>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <br>
+
+        <!--1-->
+        <div id="test" style="DISPLAY:none" align="center">
+            <form id="vop1">
+                <br>
+                <P align="center" class="display-4">Question 1 of 10<br></p>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" style="width:10%"></div>
+                </div><br>
+                <p><img src="img/5555.jpg" height="200"></p>
+                <p class="display-5">Find the extra word</p>
+                <a id="1" class="display-5" style="cursor:pointer" onClick="Engine(this.id);show('test1');show('test')">
+                    <button type="button" class="btn btn-outline-primary">Drogon</button></a><br><br>
+                <a id="0" class="display-5" style="cursor:pointer" onClick="Engine(this.id);show('test1');show('test')">
+                    <button type="button" class="btn btn-outline-primary">Dracarys</button></a><br><br>
+                <a id="1" class="display-5" style="cursor:pointer" onClick="Engine(this.id);show('test1');show('test')">
+                    <button type="button" class="btn btn-outline-primary">Rhaegal</button></a><br><br>
+            </form>
+        </div>
+
+
+        <!--2-->
+        <div id="test1" style="DISPLAY:none" align="center">
+            <form id="vop2">
+                <br>
+                <P align="center" class="display-4">Question 2 of 10<br></p>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" style="width:20%"></div>
+                </div><br>
+                <p><img src="img/544.jpg" height="200"></p>
+                <p class="display-5">What is the name of Jon Snow's direwolf?</p>
+
+                <a id="1" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test2');show('test1')">
+                    <button type="button" class="btn btn-outline-secondary">Nymeria</button></a><br><br>
+                <a id="1" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test2');show('test1')">
+                    <button type="button" class="btn btn-outline-secondary">Summer</button></a><br><br>
+                <a id="0" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test2');show('test1')">
+                    <button type="button" class="btn btn-outline-secondary">Ghost</button></a><br><br>
+            </form>
+        </div>
+
+
+        <!--3-->
+        <div id="test2" style="DISPLAY:none" align="center">
+            <form id="vop3">
+                <br>
+                <P align="center" class="display-4">Question 3 of 10<br></p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" style="width:30%"></div>
+                </div><br>
+                <p><img src="img/9898.jpg" height="200"></p>
+                <p class="display-5">What is the name of this character?</p>
+
+                <a id="1" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test3');show('test2')">
+                    <button type="button" class="btn btn-outline-success">Red Leader</button></a><br><br>
+                <a id="1" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test3');show('test2')">
+                    <button type="button" class="btn btn-outline-success">Black Tiger</button></a><br><br>
+                <a id="0" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test3');show('test2')">
+                    <button type="button" class="btn btn-outline-success">Grey Worm</button></a><br><br>
+            </form>
+        </div>
+
+
+        <!--4-->
+        <div id="test3" style="DISPLAY:none" align="center">
+            <form id="vop4">
+                <br>
+                <P align="center" class="display-4">Question 4 of 10<br></p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" style="width:40%"></div>
+                </div><br>
+                <p><img src="img/322.jpg" height="200"></p>
+                <p class="display-5">Who is decipted in the photo above?</p>
+
+                <a id="1" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test4');show('test3')">
+                    <button type="button" class="btn btn-outline-info">Sansa</button></a><br><br>
+                <a id="0" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test4');show('test3')">
+                    <button type="button" class="btn btn-outline-info">No one</button></a><br><br>
+                <a id="1" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test4');show('test3')">
+                    <button type="button" class="btn btn-outline-info">Missandei</button></a><br><br>
+            </form>
+        </div>
+
+
+        <!--5-->
+        <div id="test4" style="DISPLAY:none" align="center">
+            <form id="vop5">
+                <br>
+                <P align="center" class="display-4">Question 5 of 10<br></p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" style="width:50%"></div>
+                </div><br>
+                <p><img src="img/356.jpg" height="200"></p>
+                <p class="display-5">Who did create the White Walkers?</p>
+
+                <a id="0" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test5');show('test4')">
+                    <button type="button" class="btn btn-outline-warning">Children of the Forest</button></a><br><br>
+                <a id="1" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test5');show('test4')">
+                    <button type="button" class="btn btn-outline-warning">Lord of Light</button></a><br><br>
+                <a id="1" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test5');show('test4')">
+                    <button type="button" class="btn btn-outline-warning">The First Men</button></a><br><br>
+            </form>
+        </div>
+
+
+        <!--6-->
+        <div id="test5" style="DISPLAY:none" align="center">
+            <form id="vop6">
+                <br>
+                <P align="center" class="display-4">Question 6 of 10<br></p>
+                <div class="progress">
+                    <div class="progress-bar" style="width:60%"></div>
+                </div><br>
+                <p><img src="img/4444.jpg" height="200"></p>
+                <p class="display-5">What was Tyrion's favourite drink?</p>
+
+                <a id="1" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test6');show('test5')">
+                    <button type="button" class="btn btn-outline-danger">Cognac</button></a><br><br>
+                <a id="0" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test6');show('test5')">
+                    <button type="button" class="btn btn-outline-danger">Wine</button></a><br><br>
+                <a id="1" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test6');show('test5')">
+                    <button type="button" class="btn btn-outline-danger">Rum</button></a><br><br>
+            </form>
+        </div>
+
+
+        <!--7-->
+        <div id="test6" style="DISPLAY:none" align="center">
+            <form id="vop7">
+                <br>
+                <P align="center" class="display-4">Question 7 of 10<br></p>
+                <div class="progress">
+                    <div class="progress-bar" style="width:70%"></div>
+                </div><br>
+                <p><img src="img/1.jpg" height="200"></p>
+                <p class="display-5">Tormund "..."</p>
+
+                <a id="0" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test7');show('test6')">
+                    <button type="button" class="btn btn-outline-dark">Giantsbane</button></a><br><br>
+                <a id="1" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test7');show('test6')">
+                    <button type="button" class="btn btn-outline-dark">Giants Milk</button></a><br><br>
+                <a id="1" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test7');show('test6')">
+                    <button type="button" class="btn btn-outline-dark">Brienne</button></a><br><br>
+            </form>
+        </div>
+
+
+        <!--8-->
+        <div id="test7" style="DISPLAY:none" align="center">
+            <form id="vop8">
+                <br>
+                <P align="center" class="display-4">Question 8 of 10<br></p>
+                <div class="progress">
+                    <div class="progress-bar" style="width:80%"></div>
+                </div><br>
+                <p><img src="img/2.jpg" height="200"></p>
+                <p class="display-5">What is the name of this area?</p>
+
+                <a id="1" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test8');show('test7')">
+                    <button type="button" class="btn btn-outline-info">Highgarden</button></a><br><br>
+                <a id="1" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test8');show('test7')">
+                    <button type="button" class="btn btn-outline-info">Lannisport</button></a><br><br>
+                <a id="0" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test8');show('test7')">
+                    <button type="button" class="btn btn-outline-info">King's Landing</button></a><br><br>
+            </form>
+        </div>
+
+
+        <!--9-->
+        <div id="test8" style="DISPLAY:none" align="center">
+            <form id="vop9">
+                <br>
+                <P align="center" class="display-4">Question 9 of 10<br></p>
+                <div class="progress">
+                    <div class="progress-bar bg-success" style="width:90%"></div>
+                </div>
+                <p><img src="img/5555555.jpg" height="200"></p>
+                <p class="display-5">What is decipted in the photo above?</p>
+
+                <a id="0" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test9');show('test8')">
+                    <button type="button" class="btn btn-outline-primary">Battle of Bastards</button></a><br><br>
+                <a id="1" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test9');show('test8')">
+                    <button type="button" class="btn btn-outline-primary">Battle of Winterfell</button></a><br><br>
+                <a id="1" class="display-5" style="cursor:pointer"
+                    onClick="Engine(this.id);show('test9');show('test8')">
+                    <button type="button" class="btn btn-outline-primary">Battle of Blackwater Way</button></a><br><br>
+            </form>
+        </div>
+
+
+        <!--10-->
+        <div id="test9" style="DISPLAY:none" align="center">
+            <form id="vop10">
+                <br>
+                <P align="center" class="display-4">Question 10 of 10<br></p>
+                <div class="progress">
+                    <div class="progress-bar bg-success" style="width:100%"></div>
+                </div><br>
+                <p><img src="img/222.jpg" height="200"></p>
+                <p class="display-5">How long was Sansa keeping Jon's secret?</p>
+
+                <a id="1" class="display-5" style="cursor:pointer" onClick="Engine(this.id);otv();ca();show('test9')">
+                    <button type="button" class="btn btn-outline-success">10 years</button></a><br><br>
+                <a id="1" class="display-5" style="cursor:pointer" onClick="Engine(this.id);otv();ca();show('test9')">
+                    <button type="button" class="btn btn-outline-success">15 years</button></a><br><br>
+                <a id="0" class="display-5" style="cursor:pointer" onClick="Engine(this.id);otv();ca();show('test9')">
+                    <button type="button" class="btn btn-outline-success">2 minutes</button></a><br><br>
+            </form>
+        </div>
+
+
+        <div id="otv1" style="display:none">
+            <form id="ot1"><br><br><br>
+                <P align="center" class="display-4"><strong>Test succesfully completed!</strong><br><br>
+                    <a style="color:#404040" id="Txt">0</a> points out of 10
+                    <p align="center"><a id="Txt1"></a><a id="Txt2"></a><a id="Txt3"></a><a id="Txt4"></a><a
+                            id="Txt5"></a><a id="Txt6"></a><a id="Txt7"></a><a id="Txt8"></a><a id="Txt9"></a><a
+                            id="Txt10"></a></p>
+                    <br><br><br>
+                    <p align="center"><button type="button" class="btn btn-success btn-lg"
+                            onClick="show('test');show('otv1')">Restart</button>
+                        <p> <br>
+        </div>
+        <br><br>
+
+    </article>
+</main>
+
+
+
+<div class="jumbotron">
+    <h3 class="text-center">Copyright &copy; 2019. Igityan Vage</h3>
+</div>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript"src="js/script.js"></script>
+
+<script>//Test
+    var c = 0;
+
+    function Engine(num) {
+        if (num == 0) { c++ }
+        else { var obj = document.getElementById((num)); obj.innerHTML = (num) }
+    }
+
+    function ca() {
+        // Находим нужный элемент по ID
+        var obj = document.getElementById('Txt');
+        // Меняем его содержимое
+        obj.innerHTML = (x);
+    }
+
+    function show(divid) {
+        if (document.getElementById(divid).style.display == "none") {
+            document.getElementById(divid).style.display = "inline";
+        }
+        else {
+            document.getElementById(divid).style.display = "none";
+        }
+    }
+
+    function otv() {
+        var score = c; x = score
+        {
+            if (score <= 100) {
+                document.getElementById(divid = "otv1").style.display = "inline";
+            }
+            {
+                if (score >= 100 && score <= 110) {
+                    document.getElementById(divid = "otv2").style.display = "inline";
+                }
+                {
+                    if (score >= 110 && score <= 200) {
+                        document.getElementById(divid = "otv3").style.display = "inline";
+                    }
+                    {
+                        if (score >= 210 && score <= 300) {
+                            document.getElementById(divid = "otv4").style.display = "inline";
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    $(document).ready(function () {
+        function hidetext() {
+            $("#text0").hide(10, function () {
+                $("#hide0").hide();
+                $("#show66").show();
+            });
+        }
+        function showtext() {
+            $("#text0").show(10, function () {
+                $("#hide0").show();
+                $("#show66").hide();
+            });
+        }
+        $("#hide0").bind("click", hidetext);
+        $("#show0").bind("click", showtext);
+    })
+    //</script>
+
+
+</body>
+
+</html>
